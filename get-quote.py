@@ -1,5 +1,5 @@
-def pizza:
-   print("Keep it logically awesome.")
+def main():
+  #print("Keep it logically awesome.")
 
   f = open("quotes.txt")
   quotes = f.readlines()
@@ -7,6 +7,6 @@ def pizza:
 
   print(quotes)
 
-if __name__== "__main__":
-  pizza
+#if __name__== "__main__":
+ #main()
   
